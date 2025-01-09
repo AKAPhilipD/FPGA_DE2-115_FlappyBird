@@ -8,4 +8,4 @@
 【特别注意】
 1.硬件环境是cyclone iV EP4CE115F29C7
 2.在运行时可能会出现烧芯片现象，因为没有经过很多测试，所以尽量在偏新的显示器上显示，刷新拨动rst不要太快。
-3.本环境基于Quarters 13.0，以下Quarters版本不兼容cyclone4。
+3.本环境基于Quarters 13.0，Quarters13.0以下版本不兼容cyclone4。
