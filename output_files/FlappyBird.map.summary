@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Sat Dec 07 01:03:20 2024
+Quartus II 64-Bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version
+Revision Name : FlappyBird
+Top-level Entity Name : FlappyBird
+Family : Cyclone IV E
+Total logic elements : 570
+    Total combinational functions : 562
+    Dedicated logic registers : 165
+Total registers : 165
+Total pins : 53
+Total virtual pins : 0
+Total memory bits : 49,152
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 1

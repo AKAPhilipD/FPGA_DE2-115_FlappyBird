@@ -1,0 +1,29 @@
+module seg(d_in,a,b,c,d,e,f,g);
+input[3:0]d_in;
+output a,b,c,d,e,f,g;
+reg [7:0]seg;//built tuble 1 is on; dp is small point.
+
+always @(d_in)begin
+  case(d_in)
+    4'b0000:seg=8'b1111110;
+    4'b0001:seg=8'b0110000;
+    4'b0010:seg=8'b1101101;
+    4'b0011:seg=8'b1111001;
+    4'b0100:seg=8'b0110011;
+    4'b0101:seg=8'b1011011;
+    4'b0110:seg=8'b1011111;
+    4'b0111:seg=8'b1110000;
+    4'b1000:seg=8'b1111111;
+    4'b1001:seg=8'b1111011;
+    default:seg=8'b0000000;//none lighting
+   endcase
+  end
+  
+  assign g=seg[6];
+  assign f=seg[5];
+  assign e=seg[4];
+  assign d=seg[3];
+  assign c=seg[2];
+  assign b=seg[1];
+  assign a=seg[0];
+endmodule

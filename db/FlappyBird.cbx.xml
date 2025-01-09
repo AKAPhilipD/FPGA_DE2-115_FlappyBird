@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="FlappyBird">
+		<CBX_INST_ENTRY INSTANCE_NAME="|FlappyBird|extract:inst9|lpm_divide:Div1" CBX_FILE_NAME="lpm_divide_ihm.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|FlappyBird|extract:inst9|lpm_divide:Mod0" CBX_FILE_NAME="lpm_divide_l9m.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|FlappyBird|vga_control:inst3|gameover:gameover|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_c9a1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|FlappyBird|extract:inst9|lpm_divide:Div0" CBX_FILE_NAME="lpm_divide_lhm.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|FlappyBird|extract:inst9|lpm_divide:Mod1" CBX_FILE_NAME="lpm_divide_l9m.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|FlappyBird|pll:inst|altpll:altpll_component" CBX_FILE_NAME="pll_altpll.v"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|FlappyBird|vga_control:inst3|lpm_mult:Mult0|multcore:mult_core|mpar_add:padder|lpm_add_sub:adder[0]" CBX_FILE_NAME="add_sub_mgh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|FlappyBird|vga_control:inst3|lpm_mult:Mult0|multcore:mult_core|mpar_add:padder|mpar_add:sub_par_add|lpm_add_sub:adder[0]" CBX_FILE_NAME="add_sub_qgh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|FlappyBird|extract:inst9|lpm_divide:Mod2" CBX_FILE_NAME="lpm_divide_l9m.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|FlappyBird|vga_control:inst3|bird:bird|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_5aa1.tdf"/>
+	</PROJECT>
+</LOG_ROOT>
